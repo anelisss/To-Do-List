@@ -1,0 +1,84 @@
+* {
+    background-color:darksalmon;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:mediumaquamarine;
+    text-shadow: 2px 2px darkslategrey;
+    margin-bottom: 2em;
+}
+
+body {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 5em;
+    font-size: large;
+}
+
+.desc, .remove, .edit {
+    user-select: none;
+    cursor: pointer;
+}
+
+li.done .desc {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+span.remove {
+    margin-left: 0.5em;
+}
+
+.input {
+    font-size: large;
+    width: 20em;
+    height: 2em;
+    border: none;
+    border-bottom: 2px solid rgba(158, 82, 74, 0.836);
+    /* outline-color: salmon;
+    outline-width: 1px; */
+}
+.input:focus, #editInput {
+    outline: none;
+}
+
+.input:enabled {
+    color:rgba(197, 101, 90, 0.836);
+}
+
+::placeholder { /* Firefox, Chrome, Opera */
+    color: rgba(197, 101, 90, 0.836);
+}
+
+.desc {
+    font-size: 1.5em;
+    color: rgb(187, 235, 133);
+    text-shadow: 2px 2px darkslategrey;
+}
+
+.edit {
+    margin-left: 0.5em;
+}
+
+input#editInput {
+    font-size: large;
+    border: none;
+    border-bottom:2px dashed rgb(187, 235, 133);
+    outline: none;
+}
+input#editInput:enabled {
+    color: rgb(187, 235, 133);
+}
+
+/* rgb(187, 235, 133); */
