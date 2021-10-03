@@ -1,0 +1,106 @@
+/* * {
+    background-color:whitesmoke;
+} */
+
+div {
+    border: 2px solid black;
+    /* background-color:darksalmon; */
+    background-color: #D9CAB3;
+    width: 20em;
+    height: 30em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:mediumaquamarine;
+    text-shadow: 2px 2px darkslategrey;
+    margin-bottom: 1em;
+    /* margin-left: 1.5em; */
+    text-align: center;
+}
+
+body {
+    display: block;
+    margin-left: 5em;
+    margin-top: 5em;
+    font-size: large;
+    
+}
+
+.desc, .remove, .edit {
+    user-select: none;
+    cursor: pointer;
+}
+
+li.done .desc {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+li {
+    list-style-type: "-";
+    list-style-position: inside;
+    margin-left: 2em;
+}
+
+ul {
+    padding: 0;
+}
+
+span.edit {
+    margin-left: 0.5em;
+}
+
+.input {
+    margin-left: 2em;
+    /* background-color: darksalmon; */
+    background-color: #D9CAB3;
+    font-size: large;
+    width: 16em;
+    height: 1.5em;
+    border: none;
+    /* border-bottom: 2px solid rgba(158, 82, 74, 0.836); */
+    border-bottom: 2px solid #212121;
+    /* outline-color: salmon;
+    outline-width: 1px; */
+}
+.input:focus, #editInput {
+    outline: none;
+}
+
+.input:enabled {
+    /* color:rgba(197, 101, 90, 0.836); */
+    color: #F6F6F6;
+}
+
+::placeholder {
+    /* color: rgba(197, 101, 90, 0.836); */
+    color: #F6F6F6;
+}
+
+.desc {
+    font-size: 1em;
+    /* color: black; */
+    color: #212121;
+    margin-bottom: 1em;
+}
+
+input#editInput {
+    font-size: large;
+    border: none;
+    /* border-bottom:2px solid rgba(158, 82, 74, 0.836); */
+    border-bottom: 2px solid #212121;
+    outline: none;
+}
+input#editInput:enabled {
+    /* color: black; */
+    color: #212121;
+    /* background-color: darksalmon; */
+    background-color: #D9CAB3;
+    border: none;
+    font-size: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* rgb(187, 235, 133); */
